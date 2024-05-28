@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.uniquindio.proyecto.controler.">
+   <children>
+      <Button fx:id="bntAgragarPastel" layoutX="108.0" layoutY="267.0" mnemonicParsing="false" text="Agregar Pastel" />
+      <Button fx:id="bntAgregarGalleta" layoutX="108.0" layoutY="319.0" mnemonicParsing="false" text="Agregar Galleta" />
+      <Button fx:id="bntAgregarPostre" layoutX="225.0" layoutY="267.0" mnemonicParsing="false" text="Agregar Postre" />
+      <Button fx:id="bntAgregarPanDulce" layoutX="225.0" layoutY="319.0" mnemonicParsing="false" text="Agregar Pan Dulce" />
+      <Button fx:id="bntActualizarPedido" layoutX="476.0" layoutY="229.0" mnemonicParsing="false" text="Actualizar Pedido" />
+      <Button fx:id="bntAgregarPedido" layoutX="478.0" layoutY="267.0" mnemonicParsing="false" text="Agregar Pedido" />
+      <Button fx:id="bntEliminarPedido" layoutX="478.0" layoutY="306.0" mnemonicParsing="false" text="Eliminar Pedido" />
+      <Button fx:id="bntFinalizar" layoutX="478.0" layoutY="344.0" mnemonicParsing="false" onAction="#regresarALaPasteleria" text="Finalizar" />
+      <Text fontSmoothingType="LCD" layoutX="203.0" layoutY="44.0" strokeMiterLimit="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Realizar Pedido" wrappingWidth="272.705810546875">
+         <font>
+            <Font name="Arial Bold Italic" size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="186.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre Cliente">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="185.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Id">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="188.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Id Cliente">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="190.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="id Transacción">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txNombreCliente" layoutX="349.0" layoutY="78.0" />
+      <TextField fx:id="txId" layoutX="349.0" layoutY="117.0" />
+      <TextField fx:id="txIdCliente" layoutX="349.0" layoutY="152.0" />
+      <TextField fx:id="txIdTransaccion" layoutX="349.0" layoutY="197.0" />
+   </children>
+</AnchorPane>
